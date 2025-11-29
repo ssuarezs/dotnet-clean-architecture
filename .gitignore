@@ -1,5 +1,68 @@
-bin/
-obj/
-/packages/
-riderModule.iml
-/_ReSharper.Caches/
+# --- Build Results & Generated Files ---
+[Bb]in/
+[Oo]bj/
+*.dll
+*.exe
+*.pdb
+*.mdb
+*.app
+*.iso
+
+# --- NuGet Packages ---
+# You generally want to restore packages, not commit them
+*.nupkg
+*.snupkg
+[Nn]u[Gg]et/
+packages/
+!packages/build/
+project.lock.json
+project.fragment.lock.json
+artifacts/
+
+# --- Visual Studio & IDE Specifics ---
+.vs/
+*.user
+*.userosscache
+*.sln.docstates
+*.suo
+*_i.c
+*_p.c
+*.ncb
+*.tlb
+*.tlh
+*.bak
+*.cache
+*.ilk
+*.log
+[T]est[R]esults/
+
+# --- VS Code ---
+.vscode/
+# Note: If you want to share launch configurations, remove the line above
+# and explicitely ignore specific json files if needed.
+
+# --- JetBrains Rider ---
+.idea/
+*.sln.iml
+
+# --- Web & Front-end (ASP.NET Core / React / Angular) ---
+node_modules/
+wwwroot/dist/
+npm-debug.log
+yarn-error.log
+
+# --- Environment Variables & Secrets (CRITICAL) ---
+# Never commit your local dev secrets or environment settings
+.env
+appsettings.Development.json
+appsettings.local.json
+secrets.json
+
+# --- Operating System Files ---
+.DS_Store
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# --- Crash Dumps ---
+*.dmp
