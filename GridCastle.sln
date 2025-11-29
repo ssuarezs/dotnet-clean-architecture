@@ -1,0 +1,23 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{B43E17EF-ABF2-49CF-9FE4-F3E64C5FB69C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{CC8E1B80-FD33-4CE2-9583-DE3696F06D1E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GridCastle.Domain", "GridCastle.Domain\GridCastle.Domain.csproj", "{EFA31F8A-8A9F-4FD2-8774-6C762D60274E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{EFA31F8A-8A9F-4FD2-8774-6C762D60274E} = {B43E17EF-ABF2-49CF-9FE4-F3E64C5FB69C}
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EFA31F8A-8A9F-4FD2-8774-6C762D60274E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EFA31F8A-8A9F-4FD2-8774-6C762D60274E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EFA31F8A-8A9F-4FD2-8774-6C762D60274E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EFA31F8A-8A9F-4FD2-8774-6C762D60274E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
